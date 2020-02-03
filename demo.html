@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let i, j, sount;
+    sount="<table border='1' width='100%' cellspacing='0' cellpadding='6'>";
+    for (i=1; i<10; i++){
+        sount=sount+"<tr>";
+        for (j=2; j<10; j++)
+            sount=sount+"<td>" + j +"*"+ i +"=" +j*i+"</td>"
+    }
+    document.write(sount)
+</script>
+</body>
+</html>
